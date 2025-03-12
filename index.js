@@ -12,7 +12,7 @@
 {
     // 2 masala.
     var answer = function (input) {
-        var ans = input.toLocaleLowerCase();
+        var ans = input.toLowerCase();
         return ans === "yes" ? true : ans === "no" ? false : null;
     };
     console.log(answer("yes"));
